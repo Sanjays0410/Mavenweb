@@ -51,20 +51,20 @@
 
 		<!-- Spring dependencies -->
 
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core 
+			<dependency> <groupId>org.springframework</groupId> <artifactId>spring-core</artifactId> 
+			<version>4.0.5.RELEASE</version> </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>4.0.5.RELEASE</version>
+			<version>4.1.0.RELEASE</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>4.0.5.RELEASE</version>
-		</dependency>
 
+		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-context</artifactId> 
+			<version>4.0.5.RELEASE</version> </dependency> -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
@@ -72,11 +72,8 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>4.0.1.RELEASE</version>
-		</dependency>
+		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-core</artifactId> 
+			<version>4.0.1.RELEASE</version> </dependency> -->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
