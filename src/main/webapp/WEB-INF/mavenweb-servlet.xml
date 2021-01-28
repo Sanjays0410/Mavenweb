@@ -26,7 +26,7 @@
 			<ref bean="sessionfactory" />
 		</property>
 	</bean>
-
+ 
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -41,6 +41,7 @@
 		<property name="username" value="root" />
 		<property name="password" value="dummy" />
 	</bean>
+	
 
 	<bean id="sessionfactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">

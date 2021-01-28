@@ -12,6 +12,5 @@ public interface DepartmentDAO {
 	public List<Department> getall();
 	
 	public boolean Delete(int deptid);
-	
-	
+		
 }

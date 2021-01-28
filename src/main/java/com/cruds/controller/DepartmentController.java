@@ -50,6 +50,7 @@ public class DepartmentController {
 		return "listdept";
 		
 	}
+	
 	@RequestMapping(value="deldept-{deptid}",method=RequestMethod.GET)
 	public String dpDeptdelete(@PathVariable int deptid)
 	{
